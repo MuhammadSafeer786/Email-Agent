@@ -6,7 +6,8 @@
    - `knowledge_base/` → stores previous emails  
    - `project_files/` → stores relevant project files  
 
-2. create .env file and set following variables
+2. Enable IMAP access in your email account settings. For Gmail users, create an app password if two-factor authentication is enabled.
+3.  create .env file and set following variables
 
 ```
 EMAIL_ADDRESS=your_email@example.com
