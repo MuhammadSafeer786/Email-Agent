@@ -4,8 +4,8 @@ import email
 from imapclient import IMAPClient
 from dotenv import load_dotenv
 
-from workflows import build_agent  # your draft→critique pipeline
-from rag_store import add_document  # optional, to save email record
+from workflows import build_agent  
+from rag_store import add_document  
 
 load_dotenv()
 
@@ -71,3 +71,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
