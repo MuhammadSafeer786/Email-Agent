@@ -1,4 +1,5 @@
-# Email Project Automation
+# Email Agent
+### This agent listens for incomming emails and replies them according to previous emails and/or using context from project files
 
 ## Setup
 
